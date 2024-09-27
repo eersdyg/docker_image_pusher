@@ -4,6 +4,7 @@ kasmweb/nginx:1.25.3
 #支持指定架构
 --platform=linux/amd64 docker.io/mysql:5.7
 --platform=linux/amd64 docker.io/redis:6.2.7
+--platform=linux/arm64 docker.io/redis:6.2.7
 --platform=linux/amd64 docker.io/minio/minio:RELEASE.2023-03-20T20-16-18Z
 --platform=linux/arm64 docker.io/minio/minio:RELEASE.2023-03-20T20-16-18Z
 --platform=linux/amd64 docker.io/bellsoft/liberica-openjdk-debian:17.0.11-cds
